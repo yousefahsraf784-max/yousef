@@ -10,7 +10,14 @@
 main{width:min(100%,560px);text-align:center;background:rgba(255,255,255,.9);border:1px solid #fed7aa;border-radius:30px;padding:clamp(30px,7vw,56px);box-shadow:0 24px 70px rgba(154,52,18,.13)}
 .mark{width:82px;height:82px;margin:0 auto 22px;border-radius:25px;display:grid;place-items:center;background:linear-gradient(145deg,#fb923c,var(--deep));color:white;font-size:35px;font-weight:800;box-shadow:0 12px 28px #f9731640}
 h1{font-size:clamp(30px,7vw,44px);margin:0 0 12px;letter-spacing:-1px}p{color:var(--muted);font-size:17px;line-height:1.9;margin:0 auto 28px}
-.contact{display:inline-flex;align-items:center;justify-content:center;padding:15px 26px;border-radius:16px;background:var(--orange);color:white;text-decoration:none;font-weight:700;font-size:17px;box-shadow:0 10px 22px #f9731638}
-.note{font-size:13px;margin-top:20px;color:#9a8272}footer{margin-top:34px;color:#a18b7b;font-size:12px}
+.actions{display:flex;flex-direction:column;gap:13px}
+.contact{display:flex;align-items:center;justify-content:center;padding:15px 26px;border-radius:16px;color:white;text-decoration:none;font-weight:700;font-size:17px;box-shadow:0 10px 22px #f9731638;transition:transform .15s}
+.contact:hover{transform:translateY(-2px)}.whatsapp{background:#16a34a}.call{background:var(--orange)}
+footer{margin-top:34px;color:#a18b7b;font-size:12px}
 </style></head>
-<body><main><div class="mark" aria-hidden="true">ي</div><h1>يوسف أشرف</h1><p>أهلاً بيك في موقعي الشخصي<br>يسعدني تواصلك معايا</p><a class="contact" href="mailto:hello@example.com">تواصل معايا</a><div class="note">سيتم تفعيل وسيلة التواصل بعد تأكيد بيانات التواصل العامة.</div><footer>© 2026 يوسف أشرف</footer></main></body></html>
+<body><main><div class="mark" aria-hidden="true">ي</div><h1>يوسف أشرف</h1><p>أهلاً بيك في موقعي الشخصي<br>يسعدني تواصلك معايا</p>
+<div class="actions">
+<a class="contact whatsapp" href="https://wa.me/201099299768" target="_blank" rel="noopener noreferrer">تواصل معايا على واتساب</a>
+<a class="contact call" href="tel:+201099299768">اتصل بيا</a>
+</div>
+<footer>© 2026 يوسف أشرف</footer></main></body></html>
